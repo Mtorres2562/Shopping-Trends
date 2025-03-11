@@ -1,81 +1,81 @@
 # Customer Shopping Trends
 
-This project is from a Dataset I found on [kaggle](https://www.kaggle.com/datasets/bhadramohit/customer-shopping-latest-trends-dataset/data), This dataset made me curious to know what trends are occuring now. I want to see if i can find any meaningful insight for this project between the seasons, male and female, and items that were purchased. 
+This project is based on a dataset I found on [Kaggle](https://www.kaggle.com/datasets/bhadramohit/customer-shopping-latest-trends-dataset/data). The dataset sparked my curiosity about current shopping trends, and I wanted to explore whether meaningful insights could be drawn from it. Specifically, I aim to analyze purchasing patterns across different seasons, genders, and product categories.   
 
 ## Problem Statement
-In this project I wanted to see the difference in male and female purchases within the seasons that are provided in the dataset. To find further if male or female spends more in amount of purchases and amount in total spending. This can benefit shop owners who want to target a specific gender in seasons they would want more revenue for their business. 
+The goal of this project is to examine the differences in male and female purchasing behaviors across the seasons provided in the dataset. I aim to determine whether one gender tends to spend more—both in terms of purchase frequency and total spending. These insights could be valuable for shop owners looking to optimize their marketing strategies and target specific demographics during peak seasons to maximize revenue. 
 
 ##Data Dictionary
 
-| Column Name | Description |
-|-------------|-------------|
-| Customer ID | The Identification of the Customer |
-| Age | The age of th Customer |
-| Gender | The gender of the cumstomer male or female |
-| Item Purchased | The discription of the item purchased |
-| Catagory | The catagory of the item that was purchased |
-| Purchased Amount (USD) | The amount spent in USD for the item purchased |
-| Location | Shows the state the customer resides |
-| Size | The size of the item purchased |
-| Color | The color of the item purchsed |
-| Season | What season the item was purchased |
-| Review Rating| Rating of the item purchased |
-| Subscription Status  | Shows if the customer has a subsrciption |
-| Payment Method | Shows how the Customer payed for the item |
-| Shipping Type | Shows the type of shipping the customer chose |
-| Discount Applied | Shows if there was a discount applied on the item puchased |
-| Promo Code Used | Shows if there was a promotion used on the item purchased |
-| Previous Purchases | Shows the number of purchases made before the item purchased |
-| Preferred Payment Method | Shows the method of payment that is used the most |
-| Frequency of Purchases | Shows how often the customer purchases items |
+| Column Name               | Description |
+|---------------------------|-------------|
+| Customer ID               | Unique identifier for each customer. |
+| Age                       | The age of the customer. |
+| Gender                    | The gender of the customer (Male or Female). |
+| Item Purchased            | Description of the purchased item. |
+| Category                  | The category of the purchased item. |
+| Purchased Amount (USD)    | The amount spent in USD for the purchased item. |
+| Location                  | The state where the customer resides. |
+| Size                      | The size of the purchased item.  |
+| Color                     | The color of the purchased item. |
+| Season                    | The season during which the item was purchased. |
+| Review Rating             | The rating given to the purchased item. |
+| Subscription Status       | Indicates whether the customer has a subscription. |
+| Payment Method            | The method used by the customer to pay for the item. |
+| Shipping Type             | The type of shipping chosen by the customer. |
+| Discount Applied          | Indicates if a discount was applied to the purchase. |
+| Promo Code Used           | Indicates if a promotional code was used for the purchase. |
+| Previous Purchases        | The number of purchases made by the customer before this purchase. |
+| Preferred Payment Method  | The payment method most frequently used by the customer. |
+| Frequency of Purchases    | How often the customer makes purchases. |
 
 ## Executive Summary
 
 ###Data Cleaning Steps
-With the dataset given there was no NaN Values, So the Cleaning Process was none. Made exploring the data much easier. 
+The dataset provided contained no missing (NaN) values, eliminating the need for a data cleaning process. This made exploring the data much easier and allowed for a more seamless analysis.
 
 ### Key Visualizations
 
 #### Visualization 1: [Count Male Vs. Female]
-> This is showing that in this dataset there are more male then female
+> The dataset indicates that there are more male customers than female customers.
 
 ![Visualization 1](graphs/graph_count_mf.PNG)
 
 
 #### Visualization 2: [Count of Seasons in Dataset]
->This shows spring being the hieghest time for purchases and as male showing the most about 683 of males
+> The data shows that spring is the peak season for purchases, with male customers making the most purchases—approximately 683 transactions.
 
 ![Visualization 2](graphs/graph_count_season.PNG)
 
 #### Visualization 3: [Counts of Spring Items purchased Male Vs. Female]
->This shows male purchses more in spring with the item being sweater as the most item with about 33 times
+> The data shows that males make more purchases in spring, with sweaters being the most purchased item, bought approximately 33 times.
 
 ![Visualization 3](graphs/graph_count_spring.PNG)
 
 #### Visualization 4: [Counts of Fall Items purchased Male Vs. Female]
->This show male being the highest purchaser with the nuber one items being jacket in fall with 38 purcheses
+> The data shows that males are the highest purchasers, with jackets being the top item purchased in the fall, totaling 38 purchases.
 
 ![Visualization 4](graphs/graph_count_fall.PNG)
 
 #### Visualization 5: [Counts of Winter Items purchased Male Vs. Female]
->This shows male being the highest purcheser in winter with pants being number one item with 37 purchases
+> The data shows that males are the highest purchasers in winter, with pants being the top item, purchased 37 times.
 
 ![Visualization 5](graphs/graph_count_winter.PNG)
 
 #### Visualization 6: [Counts of Summer Items purchased Male Vs. Female]
->This shows that male is the highest in summer with pants being the most item with 36 purchases
+> The data shows that males are the highest purchasers in summer, with pants being the most purchased item, totaling 36 purchases.
 
 ![Visualization 6](graphs/graph_count_summer.PNG)
 
 #### Visualization 7: [Comparison of Items purchased Male Vs. Female]
->This shows that male purchase more items overall in previous purchases
+> The data shows that males make more overall purchases in previous transactions.
 
 ![Visualization 7](graphs/graph_item_purch.PNG)
 
 #### Visualization 8: [Comparison of Purchase Amount (USD) Male Vs. Female]
->This is showing that Female spend slightly more on items than male about 0.7% more on average
+> The data shows that females spend slightly more on items than males, with an average difference of about 0.7%.
 
 ![Visualization 8](graphs/graph_item_amount.PNG)
 
 ## Conclusions/Recommendations
-Even with female having higher amount spending per item than male. It shows overall that male outnumbered female by almost 70% giving most outcomes to male as the highest in overall. If there was an equal number of male and female we would be able to find a more accurate unbiased info. It would be interesting to see what the difference would be with an equal number of customers being male and female. I would Like to have the information on the actual discount amount and promotions to see if the case with actual spending is capturing the actual spending per item.
+Although females spend slightly more per item than males, the data shows that males outnumber females by almost 70%, leading to a higher overall spending from males. If there were an equal number of male and female customers, we could potentially derive more accurate and unbiased insights. It would be interesting to analyze the difference with an equal number of male and female customers. Additionally, having information on the actual discount amounts and promotions would be valuable to verify if the reported spending accurately reflects the actual expenditure per item.
