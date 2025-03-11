@@ -45,37 +45,37 @@ With the dataset given there was no NaN Values, So the Cleaning Process was none
 #### Visualization 2: [Count of Seasons in Dataset]
 >This shows spring being the hieghest time for purchases and as male showing the most about 683 of males
 
-![Visualization 2](C:\Users\mtorr\Documents\Coding-Temple\6-Module\Assignments\M6-Project-Independent-Exploration\graphs\graph_count_season.PNG)
+![Visualization 2](graphs/graph_count_season.PNG)
 
 #### Visualization 3: [Counts of Spring Items purchased Male Vs. Female]
 >This shows male purchses more in spring with the item being sweater as the most item with about 33 times
 
-![Visualization 3](C:\Users\mtorr\Documents\Coding-Temple\6-Module\Assignments\M6-Project-Independent-Exploration\graphs\graph_count_spring.PNG)
+![Visualization 3](graphs/graph_count_spring.PNG)
 
 #### Visualization 4: [Counts of Fall Items purchased Male Vs. Female]
 >This show male being the highest purchaser with the nuber one items being jacket in fall with 38 purcheses
 
-![Visualization 4](C:\Users\mtorr\Documents\Coding-Temple\6-Module\Assignments\M6-Project-Independent-Exploration\graphs\graph_count_fall.PNG)
+![Visualization 4](graphs/graph_count_fall.PNG)
 
 #### Visualization 5: [Counts of Winter Items purchased Male Vs. Female]
 >This shows male being the highest purcheser in winter with pants being number one item with 37 purchases
 
-![Visualization 5](C:\Users\mtorr\Documents\Coding-Temple\6-Module\Assignments\M6-Project-Independent-Exploration\graphs\graph_count_winter.PNG)
+![Visualization 5](graphs/graph_count_winter.PNG)
 
 #### Visualization 6: [Counts of Summer Items purchased Male Vs. Female]
 >This shows that male is the highest in summer with pants being the most item with 36 purchases
 
-![Visualization 6](C:\Users\mtorr\Documents\Coding-Temple\6-Module\Assignments\M6-Project-Independent-Exploration\graphs\graph_count_summer.PNG)
+![Visualization 6](graphs/graph_count_summer.PNG)
 
 #### Visualization 7: [Comparison of Items purchased Male Vs. Female]
 >This shows that male purchase more items overall in previous purchases
 
-![Visualization 7](C:\Users\mtorr\Documents\Coding-Temple\6-Module\Assignments\M6-Project-Independent-Exploration\graphs\graph_item_purch.PNG)
+![Visualization 7](graphs/graph_item_purch.PNG)
 
 #### Visualization 8: [Comparison of Purchase Amount (USD) Male Vs. Female]
 >This is showing that Female spend slightly more on items than male about 0.7% more on average
 
-![Visualization 8](C:\Users\mtorr\Documents\Coding-Temple\6-Module\Assignments\M6-Project-Independent-Exploration\graphs\graph_item_amount.PNG)
+![Visualization 8](graphs/graph_item_amount.PNG)
 
 ## Conclusions/Recommendations
 Even with female having higher amount spending per item than male. It shows overall that male outnumbered female by almost 70% giving most outcomes to male as the highest in overall. If there was an equal number of male and female we would be able to find a more accurate unbiased info. It would be interesting to see what the difference would be with an equal number of customers being male and female. I would Like to have the information on the actual discount amount and promotions to see if the case with actual spending is capturing the actual spending per item.
