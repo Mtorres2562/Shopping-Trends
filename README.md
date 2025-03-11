@@ -39,7 +39,7 @@ With the dataset given there was no NaN Values, So the Cleaning Process was none
 #### Visualization 1: [Count Male Vs. Female]
 > This is showing that in this dataset there are more male then female
 
-![Visualization 1](Shopping-Trends\graphs\graph_count_mf.PNG)
+![Visualization 1](graphs/graph_count_mf.PNG)
 
 
 #### Visualization 2: [Count of Seasons in Dataset]
